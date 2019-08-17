@@ -1,6 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=latex 2018.9.17)  2 AUG 2019 19:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.9.17)  4 AUG 2019 01:00
 entering extended mode
  restricted \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
 **main.tex
 (./main.tex
@@ -117,10 +118,10 @@ Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: dvips.def on input line 99.
+Package graphics Info: Driver file: pdftex.def on input line 99.
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-def/dvips.def
-File: dvips.def 2017/06/20 v3.1d Graphics/color driver for dvips
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen126
 \Gin@req@width=\dimen127
@@ -174,22 +175,21 @@ ode.tex
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
 )
-Driver file for pgf: pgfsys-dvips.def
+Driver file for pgf: pgfsys-pdftex.def
 
-(/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-dvips.de
-f
-File: pgfsys-dvips.def 2014/07/09  (rcs-revision 1.25)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.d
+ef
+File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
 
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-p
-ostscript.def
-File: pgfsys-common-postscript.def 2008/10/01  (rcs-revision 1.22)
-\pgf@objectcount=\count112
+df.def
+File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
 )))
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
 code.tex
 File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
-\pgfsyssoftpath@smallbuffer@items=\count113
-\pgfsyssoftpath@bigbuffer@items=\count114
+\pgfsyssoftpath@smallbuffer@items=\count112
+\pgfsyssoftpath@bigbuffer@items=\count113
 )
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
 code.tex
@@ -200,8 +200,9 @@ Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package xcolor Info: Driver file: dvips.def on input line 225.
+Package xcolor Info: Driver file: pdftex.def on input line 225.
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
 Package xcolor Info: Model `RGB' extended on input line 1364.
 Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
 Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
@@ -217,7 +218,7 @@ Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen138
-\pgfmath@count=\count115
+\pgfmath@count=\count114
 \pgfmath@box=\box35
 \pgfmath@toks=\toks23
 \pgfmath@stack@operand=\toks24
@@ -242,7 +243,7 @@ code.tex)
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integ
 erarithmetics.code.tex)))
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count116
+\c@pgfmathroundto@lastzeros=\count115
 ))
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
 de.tex
@@ -280,7 +281,7 @@ File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
 \pgfpic=\box36
 \pgf@hbox=\box37
 \pgf@layerbox@main=\box38
-\pgf@picture@serial@count=\count117
+\pgf@picture@serial@count=\count116
 )
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
 ate.code.tex
@@ -315,7 +316,7 @@ File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
 e.tex
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
 \pgf@max=\dimen162
-\pgf@sys@shading@range@num=\count118
+\pgf@sys@shading@range@num=\count117
 )
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
 e.tex
@@ -340,8 +341,8 @@ File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
 )))
 (/usr/local/texlive/2018/texmf-dist/tex/latex/pgf/utilities/xxcolor.sty
 Package: xxcolor 2003/10/24 ver 0.1
-\XC@nummixins=\count119
-\XC@countmixins=\count120
+\XC@nummixins=\count118
+\XC@countmixins=\count119
 )
 (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/atbegshi.sty
 Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
@@ -381,7 +382,7 @@ Package: pdftexcmds 2018/01/30 v0.27 Utility functions of pdfTeX for LuaTeX (HO
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode is ignored in DVI mode.
+Package pdftexcmds Info: \pdfdraftmode found.
 Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
 Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
 )
@@ -404,15 +405,15 @@ Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
 \@linkdim=\dimen163
-\Hy@linkcounter=\count121
-\Hy@pagecounter=\count122
+\Hy@linkcounter=\count120
+\Hy@pagecounter=\count121
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2018/02/06 v6.86b Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-\Hy@SavedSpaceFactor=\count123
+\Hy@SavedSpaceFactor=\count122
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -427,7 +428,7 @@ Package hyperref Info: Plain pages OFF on input line 4524.
 Package hyperref Info: Backreferencing OFF on input line 4529.
 Package hyperref Info: Implicit mode OFF; no redefinition of LaTeX internals.
 Package hyperref Info: Bookmarks ON on input line 4762.
-\c@Hy@tempcnt=\count124
+\c@Hy@tempcnt=\count123
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
@@ -435,7 +436,7 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5115.
 \XeTeXLinkMargin=\dimen164
-\Fld@menulength=\count125
+\Fld@menulength=\count124
 \Field@Width=\dimen165
 \Fld@charsize=\dimen166
 Package hyperref Info: Hyper figures OFF on input line 6369.
@@ -447,31 +448,23 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6394.
 Package hyperref Info: PDF/A mode OFF on input line 6399.
 LaTeX Info: Redefining \ref on input line 6439.
 LaTeX Info: Redefining \pageref on input line 6443.
-\Hy@abspage=\count126
+\Hy@abspage=\count125
 
 
 Package hyperref Message: Stopped early.
 
 )
-Package hyperref Info: Driver (default): hdvips.
- (/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/hdvips.def
-File: hdvips.def 2018/02/06 v6.86b Hyperref driver for dvips
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/pdfmark.def
-File: pdfmark.def 2018/02/06 v6.86b Hyperref definitions for pdfmark specials
-\pdf@docset=\toks26
-\pdf@box=\box40
-\pdf@toks=\toks27
-\pdf@defaulttoks=\toks28
-\HyField@AnnotCount=\count127
-\Fld@listcount=\count128
-\c@bookmark@seq@number=\count129
+Package hyperref Info: Driver (autodetected): hpdftex.
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2018/02/06 v6.86b Hyperref driver for pdfTeX
+\Fld@listcount=\count126
+\c@bookmark@seq@number=\count127
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
-)))
+))
 (/usr/local/texlive/2018/texmf-dist/tex/latex/beamer/beamerbaserequires.sty
 (/usr/local/texlive/2018/texmf-dist/tex/latex/beamer/beamerbasecompatibility.st
 y) (/usr/local/texlive/2018/texmf-dist/tex/latex/beamer/beamerbasefont.sty
@@ -480,7 +473,7 @@ Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
-\@emptytoks=\toks29
+\@emptytoks=\toks26
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
@@ -498,66 +491,66 @@ Package: translator 2018/01/04 v1.12 Easy translation of strings in LaTeX
 (/usr/local/texlive/2018/texmf-dist/tex/latex/beamer/beamerbasemisc.sty)
 (/usr/local/texlive/2018/texmf-dist/tex/latex/beamer/beamerbasetwoscreens.sty)
 (/usr/local/texlive/2018/texmf-dist/tex/latex/beamer/beamerbaseoverlay.sty
-\beamer@argscount=\count130
+\beamer@argscount=\count128
 \beamer@lastskipcover=\skip44
-\beamer@trivlistdepth=\count131
+\beamer@trivlistdepth=\count129
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/beamer/beamerbasetitle.sty)
 (/usr/local/texlive/2018/texmf-dist/tex/latex/beamer/beamerbasesection.sty
-\c@lecture=\count132
-\c@part=\count133
-\c@section=\count134
-\c@subsection=\count135
-\c@subsubsection=\count136
+\c@lecture=\count130
+\c@part=\count131
+\c@section=\count132
+\c@subsection=\count133
+\c@subsubsection=\count134
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/beamer/beamerbaseframe.sty
-\beamer@framebox=\box41
-\beamer@frametitlebox=\box42
-\beamer@zoombox=\box43
-\beamer@zoomcount=\count137
-\beamer@zoomframecount=\count138
+\beamer@framebox=\box40
+\beamer@frametitlebox=\box41
+\beamer@zoombox=\box42
+\beamer@zoomcount=\count135
+\beamer@zoomframecount=\count136
 \beamer@frametextheight=\dimen167
-\c@subsectionslide=\count139
+\c@subsectionslide=\count137
 \beamer@frametopskip=\skip45
 \beamer@framebottomskip=\skip46
 \beamer@frametopskipautobreak=\skip47
 \beamer@framebottomskipautobreak=\skip48
-\beamer@envbody=\toks30
+\beamer@envbody=\toks27
 \framewidth=\dimen168
-\c@framenumber=\count140
+\c@framenumber=\count138
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/beamer/beamerbaseverbatim.sty
 \beamer@verbatimfileout=\write4
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/beamer/beamerbaseframesize.sty
-\beamer@splitbox=\box44
-\beamer@autobreakcount=\count141
+\beamer@splitbox=\box43
+\beamer@autobreakcount=\count139
 \beamer@autobreaklastheight=\dimen169
-\beamer@frametitletoks=\toks31
-\beamer@framesubtitletoks=\toks32
+\beamer@frametitletoks=\toks28
+\beamer@framesubtitletoks=\toks29
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/beamer/beamerbaseframecomponents.
 sty
-\beamer@footins=\box45
+\beamer@footins=\box44
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/beamer/beamerbasecolor.sty
 \beamer@bg@ht=\dimen170
 \beamer@bg@wd=\dimen171
 \beamer@bg@dp=\dimen172
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/beamer/beamerbasenotes.sty
-\beamer@frameboxcopy=\box46
+\beamer@frameboxcopy=\box45
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/beamer/beamerbasetoc.sty)
 (/usr/local/texlive/2018/texmf-dist/tex/latex/beamer/beamerbasetemplates.sty
-\beamer@sbttoks=\toks33
+\beamer@sbttoks=\toks30
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/beamer/beamerbaseauxtemplates.sty
 (/usr/local/texlive/2018/texmf-dist/tex/latex/beamer/beamerbaseboxes.sty
-\bmb@box=\box47
-\bmb@colorbox=\box48
-\bmb@boxshadow=\box49
-\bmb@boxshadowball=\box50
-\bmb@boxshadowballlarge=\box51
+\bmb@box=\box46
+\bmb@colorbox=\box47
+\bmb@boxshadow=\box48
+\bmb@boxshadowball=\box49
+\bmb@boxshadowballlarge=\box50
 \bmb@temp=\dimen173
 \bmb@dima=\dimen174
 \bmb@dimb=\dimen175
@@ -568,10 +561,10 @@ sty
 (/usr/local/texlive/2018/texmf-dist/tex/latex/beamer/beamerbaselocalstructure.s
 ty (/usr/local/texlive/2018/texmf-dist/tex/latex/tools/enumerate.sty
 Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
-\@enLab=\toks34
+\@enLab=\toks31
 )
-\c@figure=\count142
-\c@table=\count143
+\c@figure=\count140
+\c@table=\count141
 \abovecaptionskip=\skip49
 \belowcaptionskip=\skip50
 )
@@ -589,7 +582,7 @@ Package: amstext 2000/06/29 v2.01 AMS text
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks35
+\@emptytoks=\toks32
 \ex@=\dimen179
 ))
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsbsy.sty
@@ -599,57 +592,57 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count144
+\inf@bad=\count142
 LaTeX Info: Redefining \frac on input line 213.
-\uproot@=\count145
-\leftroot@=\count146
+\uproot@=\count143
+\leftroot@=\count144
 LaTeX Info: Redefining \overline on input line 375.
-\classnum@=\count147
-\DOTSCASE@=\count148
+\classnum@=\count145
+\DOTSCASE@=\count146
 LaTeX Info: Redefining \ldots on input line 472.
 LaTeX Info: Redefining \dots on input line 475.
 LaTeX Info: Redefining \cdots on input line 596.
-\Mathstrutbox@=\box52
-\strutbox@=\box53
+\Mathstrutbox@=\box51
+\strutbox@=\box52
 \big@size=\dimen181
 LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
-\macc@depth=\count149
-\c@MaxMatrixCols=\count150
+\macc@depth=\count147
+\c@MaxMatrixCols=\count148
 \dotsspace@=\muskip11
-\c@parentequation=\count151
-\dspbrk@lvl=\count152
-\tag@help=\toks36
-\row@=\count153
-\column@=\count154
-\maxfields@=\count155
-\andhelp@=\toks37
+\c@parentequation=\count149
+\dspbrk@lvl=\count150
+\tag@help=\toks33
+\row@=\count151
+\column@=\count152
+\maxfields@=\count153
+\andhelp@=\toks34
 \eqnshift@=\dimen182
 \alignsep@=\dimen183
 \tagshift@=\dimen184
 \tagwidth@=\dimen185
 \totwidth@=\dimen186
 \lineht@=\dimen187
-\@envbody=\toks38
+\@envbody=\toks35
 \multlinegap=\skip52
 \multlinetaggap=\skip53
-\mathdisplay@stack=\toks39
+\mathdisplay@stack=\toks36
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amscls/amsthm.sty
 Package: amsthm 2017/10/31 v2.20.4
-\thm@style=\toks40
-\thm@bodyfont=\toks41
-\thm@headfont=\toks42
-\thm@notefont=\toks43
-\thm@headpunct=\toks44
+\thm@style=\toks37
+\thm@bodyfont=\toks38
+\thm@headfont=\toks39
+\thm@notefont=\toks40
+\thm@headpunct=\toks41
 \thm@preskip=\skip54
 \thm@postskip=\skip55
 \thm@headsep=\skip56
-\dth@everypar=\toks45
+\dth@everypar=\toks42
 )
-\c@theorem=\count156
+\c@theorem=\count154
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/beamer/beamerbasethemes.sty))
 (/usr/local/texlive/2018/texmf-dist/tex/latex/beamer/beamerthemedefault.sty
@@ -663,15 +656,15 @@ y
 \beamer@dimb=\dimen189
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/beamer/beamerouterthemedefault.st
-y))) (/usr/local/texlive/2018/texmf-dist/tex/latex/beamer/beamerthemeMadrid.sty
+y)))
+(/usr/local/texlive/2018/texmf-dist/tex/latex/beamer/beamerthemeAntibes.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/beamer/beamerouterthemetree.sty)
 (/usr/local/texlive/2018/texmf-dist/tex/latex/beamer/beamercolorthemewhale.sty)
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/beamer/beamercolorthemeorchid.sty
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/beamer/beamerinnerthemerounded.st
-y)
-(/usr/local/texlive/2018/texmf-dist/tex/latex/beamer/beamerouterthemeinfolines.
-sty)) (/usr/local/texlive/2018/texmf-dist/tex/generic/babel/babel.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/beamer/beamerinnerthemerectangles
+.sty)) (/usr/local/texlive/2018/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2018/02/14 3.18 The Babel package
 
 (/usr/local/texlive/2018/texmf-dist/tex/generic/babel/switch.def
@@ -682,12 +675,12 @@ Language: english 2017/06/06 v3.3r English support from the babel system
 
 (/usr/local/texlive/2018/texmf-dist/tex/generic/babel/babel.def
 File: babel.def 2018/02/14 3.18 Babel common definitions
-\babel@savecnt=\count157
+\babel@savecnt=\count155
 \U@D=\dimen190
 
 (/usr/local/texlive/2018/texmf-dist/tex/generic/babel/txtbabel.def)
 LaTeX Info: Redefining \textlatin on input line 1839.
-\bbl@dirlevel=\count158
+\bbl@dirlevel=\count156
 )
 \l@canadian = a dialect from \language\l@american 
 \l@australian = a dialect from \language\l@british 
@@ -695,8 +688,8 @@ LaTeX Info: Redefining \textlatin on input line 1839.
 ))
 (/usr/local/texlive/2018/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2018/04/06 v1.3b Input encoding file
-\inpenc@prehook=\toks46
-\inpenc@posthook=\toks47
+\inpenc@prehook=\toks43
+\inpenc@posthook=\toks44
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/ucs/utf8x.def
 File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
@@ -707,10 +700,10 @@ Package: ucs 2013/05/11 v2.2 UCS: Unicode input support
 (/usr/local/texlive/2018/texmf-dist/tex/latex/ucs/data/uni-global.def
 File: uni-global.def 2013/05/13 UCS: Unicode global data
 )
-\uc@secondtry=\count159
-\uc@combtoks=\toks48
-\uc@combtoksb=\toks49
-\uc@temptokena=\toks50
+\uc@secondtry=\count157
+\uc@combtoks=\toks45
+\uc@combtoksb=\toks46
+\uc@temptokena=\toks47
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/adjustbox/adjustbox.sty
 Package: adjustbox 2018/04/08 v1.1 Adjusting TeX boxes (trim, clip, ...)
@@ -720,10 +713,10 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
 (/usr/local/texlive/2018/texmf-dist/tex/generic/xkeyval/xkeyval.tex
 (/usr/local/texlive/2018/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks51
-\XKV@tempa@toks=\toks52
+\XKV@toks=\toks48
+\XKV@tempa@toks=\toks49
 )
-\XKV@depth=\count160
+\XKV@depth=\count158
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 (/usr/local/texlive/2018/texmf-dist/tex/latex/adjustbox/adjcalc.sty
@@ -735,16 +728,16 @@ Package: trimclip 2018/04/08 v1.1 Trim and clip general TeX material
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/collectbox/collectbox.sty
 Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
-\collectedbox=\box54
+\collectedbox=\box53
 )
 \tc@llx=\dimen191
 \tc@lly=\dimen192
 \tc@urx=\dimen193
 \tc@ury=\dimen194
-Package trimclip Info: Using driver 'tc-dvips.def'.
+Package trimclip Info: Using driver 'tc-pdftex.def'.
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/adjustbox/tc-dvips.def
-File: tc-dvips.def 2018/04/08 v2.1 Clipping driver for dvips
+(/usr/local/texlive/2018/texmf-dist/tex/latex/adjustbox/tc-pdftex.def
+File: tc-pdftex.def 2018/04/08 v2.1 Clipping driver for pdftex
 ))
 \adjbox@Width=\dimen195
 \adjbox@Height=\dimen196
@@ -757,12 +750,12 @@ File: tc-dvips.def 2018/04/08 v2.1 Clipping driver for dvips
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
 Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
-\c@checkoddpage=\count161
+\c@checkoddpage=\count159
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/varwidth/varwidth.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
-\@vwid@box=\box55
-\sift@deathcycles=\count162
+\@vwid@box=\box54
+\sift@deathcycles=\count160
 \@vwid@loff=\dimen259
 \@vwid@roff=\dimen260
 ))
@@ -786,8 +779,23 @@ Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
 \RaggedLeftParindent=\skip68
 \RaggedRightParindent=\skip69
 \JustifyingParindent=\skip70
+) (./main.aux
+
+LaTeX Warning: Label `fig:your-figure' multiply defined.
+
+
+LaTeX Warning: Label `fig:your-figure' multiply defined.
+
+
+LaTeX Warning: Label `fig:your-figure' multiply defined.
+
+
+LaTeX Warning: Label `tab:widgets' multiply defined.
+
+
+LaTeX Warning: Label `tab:my-table' multiply defined.
+
 )
-No file main.aux.
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
@@ -804,22 +812,23 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
 LaTeX Font Info:    ... okay on input line 30.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 30.
 LaTeX Font Info:    ... okay on input line 30.
+
 *geometry* driver: auto-detecting
-*geometry* detected driver: dvips
+*geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
-* driver: dvips
+* driver: pdftex
 * paper: custom
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: includehead includefoot 
-* h-part:(L,W,R)=(10.95003pt, 342.2953pt, 10.95003pt)
+* h-part:(L,W,R)=(28.45274pt, 307.28987pt, 28.45274pt)
 * v-part:(T,H,B)=(0.0pt, 273.14662pt, 0.0pt)
 * \paperwidth=364.19536pt
 * \paperheight=273.14662pt
-* \textwidth=342.2953pt
+* \textwidth=307.28987pt
 * \textheight=244.6939pt
-* \oddsidemargin=-61.31996pt
-* \evensidemargin=-61.31996pt
+* \oddsidemargin=-43.81725pt
+* \evensidemargin=-43.81725pt
 * \topmargin=-72.26999pt
 * \headheight=14.22636pt
 * \headsep=0.0pt
@@ -838,6 +847,36 @@ LaTeX Font Info:    ... okay on input line 30.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+(/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count161
+\scratchdimen=\dimen261
+\scratchbox=\box55
+\nofMPsegments=\count162
+\nofMParguments=\count163
+\everyMPshowfont=\toks50
+\MPscratchCnt=\count164
+\MPscratchDim=\dimen262
+\MPnumerator=\count165
+\makeMPintoPDFobject=\count166
+\everyMPtoPDFconversion=\toks51
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box56
 Package hyperref Info: Link coloring OFF on input line 30.
@@ -848,17 +887,15 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count163
+\c@section@level=\count167
 )
 LaTeX Info: Redefining \ref on input line 30.
 LaTeX Info: Redefining \pageref on input line 30.
 LaTeX Info: Redefining \nameref on input line 30.
+
+(./main.out) (./main.out)
 \@outlinefile=\write5
 \openout5 = `main.out'.
-
-
-
-Package hyperref Warning: Rerun to get /PageLabels entry.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 30.
@@ -942,13 +979,10 @@ File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 )
 ABD: EverySelectfont initializing macros
 LaTeX Info: Redefining \selectfont on input line 30.
+ (./main.nav) [1{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdft
+ex.map}
 
-No file main.nav.
-[1
-
-]
-No file main.toc.
-[2
+] (./main.toc) [2
 
 ]
 
@@ -957,72 +991,254 @@ LaTeX Warning: Citation `whoshould' on page 3 undefined on input line 63.
 [3
 
 ]
+<./img/review.png, id=103, 1141.26375pt x 474.77374pt>
+File: ./img/review.png Graphic file (type png)
+<use ./img/review.png>
+Package pdftex.def Info: ./img/review.png  used on input line 73.
+(pdftex.def)             Requested size: 307.28987pt x 127.83563pt.
+ [4
 
-! LaTeX Error: Cannot determine size of graphic in ./img/review.png (no Boundin
-gBox).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.73 \end{frame}
-                
-? 
-File: ./img/review.png Graphic file (type eps)
-<./img/review.png>
-Overfull \vbox (154.86307pt too high) detected at line 73
+ <./img/review.png>]
+Overfull \vbox (12.2125pt too high) detected at line 95
  []
 
-[4
-
-] [5
+[5
 
 ]
-
-! LaTeX Error: Cannot determine size of graphic in img/scenario.png (no Boundin
-gBox).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
+<img/scenario.png, id=121, 442.65375pt x 380.42125pt>
+File: img/scenario.png Graphic file (type png)
+<use img/scenario.png>
+Package pdftex.def Info: img/scenario.png  used on input line 105.
+(pdftex.def)             Requested size: 227.62204pt x 195.62598pt.
+pdfTeX warning (ext4): destination with the same identifier (name{fig:your-figu
+re}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
 l.105 \end{frame}
                  
-? 
-File: img/scenario.png Graphic file (type eps)
-<img/scenario.png>
-Overfull \vbox (40.10954pt too high) detected at line 105
+Overfull \vbox (28.43309pt too high) detected at line 105
  []
 
 [6
 
+ <./img/scenario.png>]
+<./img/ideal-review.png, id=130, 471.7625pt x 294.09875pt>
+File: ./img/ideal-review.png Graphic file (type png)
+<use ./img/ideal-review.png>
+Package pdftex.def Info: ./img/ideal-review.png  used on input line 116.
+(pdftex.def)             Requested size: 284.52756pt x 177.37607pt.
+pdfTeX warning (ext4): destination with the same identifier (name{fig:your-figu
+re}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.116 \end{frame}
+                 
+Overfull \vbox (10.18318pt too high) detected at line 116
+ []
+
+[7
+
+ <./img/ideal-review.png>]
+<./img/new-figure.png, id=140, 855.195pt x 766.865pt>
+File: ./img/new-figure.png Graphic file (type png)
+<use ./img/new-figure.png>
+Package pdftex.def Info: ./img/new-figure.png  used on input line 124.
+(pdftex.def)             Requested size: 227.62204pt x 204.10756pt.
+pdfTeX warning (ext4): destination with the same identifier (name{fig:your-figu
+re}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.124 \end{frame}
+                 
+Overfull \vbox (36.91467pt too high) detected at line 124
+ []
+
+[8
+
+ <./img/new-figure.png>]
+LaTeX Font Info:    Try loading font information for U+msa on input line 153.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 153.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input 
+line 153.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
+File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
+thkerncmss.
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/ucs/data/uni-34.def
+File: uni-34.def 2013/05/13 UCS: Unicode data U+2200..U+22FF
+) [9
+
 ]
 
-! LaTeX Error: Cannot determine size of graphic in ./img/ideal-review.png (no B
-oundingBox).
+LaTeX Warning: Citation `kovalenko2018does' on page 10 undefined on input line 
+178.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.116 \end{frame}
-                 
-? 
-! Emergency stop.
- ...                                              
-                                                  
-l.116 \end{frame}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
 
- 
+LaTeX Warning: Citation `ruangwan2019impact' on page 10 undefined on input line
+ 178.
+
+
+LaTeX Warning: Citation `kononenko2015investigating' on page 10 undefined on in
+put line 178.
+
+
+LaTeX Warning: Citation `kovalenko2018does' on page 10 undefined on input line 
+178.
+
+
+LaTeX Warning: Citation `macleod2017code' on page 10 undefined on input line 17
+8.
+
+
+LaTeX Warning: Citation `ruangwan2019impact' on page 10 undefined on input line
+ 178.
+
+
+LaTeX Warning: Citation `kononenko2015investigating' on page 10 undefined on in
+put line 178.
+
+
+LaTeX Warning: Citation `kovalenko2018does' on page 10 undefined on input line 
+178.
+
+
+LaTeX Warning: Citation `macleod2017code' on page 10 undefined on input line 17
+8.
+
+
+LaTeX Warning: Citation `kovalenko2018does' on page 10 undefined on input line 
+178.
+
+
+LaTeX Warning: Citation `ruangwan2019impact' on page 10 undefined on input line
+ 178.
+
+
+LaTeX Warning: Citation `kovalenko2018does' on page 10 undefined on input line 
+178.
+
+
+LaTeX Warning: Citation `kovalenko2018does' on page 10 undefined on input line 
+178.
+
+
+LaTeX Warning: Citation `kovalenko2018does' on page 10 undefined on input line 
+178.
+
+
+LaTeX Warning: Citation `macleod2017code' on page 10 undefined on input line 17
+8.
+
+pdfTeX warning (ext4): destination with the same identifier (name{tab:widgets})
+ has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.178 \end{frame}
+                  [10
+
+] [11
+
+] [12
+
+]
+
+LaTeX Warning: Citation `ruangwan2019impact' on page 13 undefined on input line
+ 249.
+
+pdfTeX warning (ext4): destination with the same identifier (name{tab:my-table}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.249     \end{frame}
+                      [13
+
+] [14
+
+]
+<./img/sol1.png, id=205, 717.4002pt x 262.581pt>
+File: ./img/sol1.png Graphic file (type png)
+<use ./img/sol1.png>
+Package pdftex.def Info: ./img/sol1.png  used on input line 263.
+(pdftex.def)             Requested size: 342.03845pt x 125.19194pt.
+
+Overfull \hbox (34.74858pt too wide) in paragraph at lines 263--263
+[][]  
+ []
+
+[15
+
+ <./img/sol1.png>] [16
+
+]
+<./img/sol2.png, id=223, 639.3486pt x 437.4744pt>
+File: ./img/sol2.png Graphic file (type png)
+<use ./img/sol2.png>
+Package pdftex.def Info: ./img/sol2.png  used on input line 293.
+(pdftex.def)             Requested size: 199.59106pt x 136.5733pt.
+
+Overfull \hbox (30.5807pt too wide) in paragraph at lines 293--293
+[][]  
+ []
+
+[17
+
+ <./img/sol2.png>]
+No file main.bbl.
+[18
+
+]
+\tf@nav=\write6
+\openout6 = `main.nav'.
+
+\tf@toc=\write7
+\openout7 = `main.toc'.
+
+\tf@snm=\write8
+\openout8 = `main.snm'.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 302.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 302.
+ (./main.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 302.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 302.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: C0A28213BBC7492147E52513A86A4590;661.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 18205 strings out of 492650
- 346886 string characters out of 6129648
- 458681 words of memory out of 5000000
- 21666 multiletter control sequences out of 15000+600000
- 6358 words of font info for 23 fonts, out of 8000000 for 9000
+ 19409 strings out of 492649
+ 362711 string characters out of 6129622
+ 457045 words of memory out of 5000000
+ 22767 multiletter control sequences out of 15000+600000
+ 11634 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,16n,57p,1689b,704s stack positions out of 5000i,500n,10000p,200000b,80000s
-Output written on main.dvi (6 pages, 48688 bytes).
+ 56i,14n,60p,790b,683s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb
+></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb>
+</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></
+usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><
+/usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></
+usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></u
+sr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb
+>
+Output written on main.pdf (18 pages, 780999 bytes).
+PDF statistics:
+ 279 PDF objects out of 1000 (max. 8388607)
+ 212 compressed objects within 3 object streams
+ 51 named destinations out of 1000 (max. 500000)
+ 161 words of extra memory for PDF output out of 10000 (max. 10000000)
+

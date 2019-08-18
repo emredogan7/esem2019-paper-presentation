@@ -28,10 +28,13 @@
 
 %\setbeamertemplate{navigation symbols}{}%remove navigation symbols
 
-\title{Bilkent Beamer Template 2}
-\author{Alican Büyükçakır}
-\institute{Computer Engineering Department, Bilkent University}
-\date{\today}
+\title{Investigating the Validity of Ground Truth in Code Reviewer Recommendation Studies}
+\author[]{\textbf{Emre Doğan}, Eray Tüzün, K. Ayberk Tecimer, H. Altay Güvenir}
+\institute{MSc Student \newline Computer Engineering Department \newline Bilkent University}
+\date
+    {ESEM 2019\\
+    Porto de Galinhas, Brazil \\
+    \today}
 
 \begin{document}
 
@@ -49,38 +52,91 @@
 
 
 % Insert slides below.
-\section{Introduction to Beamer}
+\section{Introduction}
 
-\subsection{What is Beamer}
+\subsection{Code Review and Code Reviewer}
 
-\begin{frame}{Beamer for Presentations!}
+\begin{frame}{\large What is Code Review, Who is a Code Reviewer?}
 
-  Beamer is a package that allows you to generate \LaTeX-based presentations. There are many reasons to prefer Beamer over MS PPT. For instance:
-  
-  \begin{itemize}
-      \item Using math equations
-      \item Referencing Tables and Figures, as well as citations \cite{buyukccakir2018novel}
-  \end{itemize}
+  \textbf{Code Review:} A systematic examination of source code in order to highlight bugs and enhance the code quality.
+  \newline \newline
+  \textbf{Code Reviewer:} The developer performing a code review.
+  \begin{figure}
+    \includegraphics[scale=0.3]{img/code_review_wtf.png}
+    %\caption{lion!!}
+    \end{figure}
+    
+  %\begin{itemize}
+  %    \item Using math equations
+  %    \item Referencing Tables and Figures, as well as citations \cite{buyukccakir2018novel}
+  %\end{itemize}
   
 \end{frame}
 
-\subsection{Useful Stuff to do with Beamer}
+\subsection{Code Reviewer Recommendation}
 
 \begin{frame}
-\frametitle{Paused Slide Flows}
-    
-    Here is an example of a paused-slide flow. (Notice the transparent text below)
-    
-    \pause
-    \begin{equation}
-    \label{eq1}
-    f(x) = \sum_{i=1}^N (-1)^{2n+1} a_i x^i
-    \end{equation}
+\frametitle{How to find an efficient code reviewer?}
 
-    \pause 
-    
-    Can refer to the above equation as if you are in any other \LaTeX doc. e.g. blabla see Equation \ref{eq1}
+    %\begin{block}{Fact:}
+    %\begin{itemize}
+    %\item Code reviewing is not the most fun activity for a developer.
+    %\item But it is a crucial step of software quality assurance process.
+    %\end{itemize}
+    %\end{block}
+    %\pause
+    \begin{itemize}
+    \item Code reviewer recommendation models/tools help us to choose efficient reviewers.
+    \item These tools help software teams:
+        \begin{itemize}
+            \item to find reviewers who can find more(critical) bugs in the source code.
+            \item to speed up the code review process.
+        \end{itemize}
+  \end{itemize}
+
+
 \end{frame}
+
+
+
+
+\subsection{How Reviewers are Selected}
+
+\begin{frame}
+\frametitle{\large Reviewer Selection in Recommendation Models }
+
+  \begin{figure}
+    \includegraphics[scale=0.5]{img/algos.png}
+    \end{figure}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{\large Reviewer Selection in Real Life }
+
+  \begin{figure}
+    \includegraphics[scale=0.47]{img/real-life.png}
+    \end{figure}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{\large Reviewer Selection in Real Life }
+
+  \begin{figure}
+    \includegraphics[scale=0.33]{img/final-.png}
+    \end{figure}
+\end{frame}
+
+
+
+
+
+
+
+
+
+
 
 \begin{frame}{Block, Alert, Example Boxes}
 
@@ -126,5 +182,6 @@
     \bibliography{bibliography} 
 \end{frame}
 \endgroup
+  %\cite{buyukccakir2018novel}
 
 \end{document}

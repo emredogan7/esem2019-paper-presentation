@@ -34,13 +34,15 @@
 
 %\setbeamertemplate{navigation symbols}{}%remove navigation symbols
 
-\title{Investigating the Validity of Ground Truth in Code Reviewer Recommendation Studies}
-\author[]{\textbf{Emre Doğan}, Eray Tüzün, K. Ayberk Tecimer, H. Altay Güvenir}
+\title{Investigating the Validity of Ground Truth in Code Reviewer Recommendation Studies }
+\author[]{
+ \textbf{Emre Doğan}, Eray Tüzün, K. Ayberk Tecimer, H. Altay Güvenir}
 \institute{MSc Student \newline Computer Engineering Department \newline Bilkent University}
 \date
-    {ESEM 2019\\
-    Porto de Galinhas, Brazil \\
-    \today}
+    {\small\textit{{ESEM 2019}}\newline
+    %Porto de Galinhas, Brazil \\
+    \today
+    }
 
 \begin{document}
 
@@ -50,11 +52,11 @@
 \end{frame}
 
 % Insert table of contents if necessary
-\begin{frame}
-  \frametitle{Outline}
-
-  \small \tableofcontents
-\end{frame}
+%\begin{frame}
+%  \frametitle{Outline}
+%
+%  \small \tableofcontents
+%\end{frame}
 
 
 % Insert slides below.
@@ -67,14 +69,13 @@
   \textbf{Code Review:} A systematic examination of source code in order to highlight bugs and enhance the code quality.
   \pause
   \newline \newline
-  \textbf{Code Reviewer:} The developer performing a code review.
+  \textbf{Code Reviewer:} The developer performing a code review who ensures the quality of the code.
   \pause
-  \newline
   \visible<3>{
   \begin{figure}
-    \includegraphics[scale=0.4]{img/code_review.png}
-    \caption{A typical code review scenario}
+    \includegraphics[height=0.5\textheight]{img/normal_review.png}
     \end{figure}
+    \centering A typical code review scenario
     }
     
   %\begin{itemize}
@@ -87,7 +88,7 @@
 \subsection{Code Reviewer Recommendation}
 
 \begin{frame}
-\frametitle{How to find an efficient code reviewer?}
+\frametitle{How to find an ideal code reviewer?}
 
     %\begin{block}{Fact:}
     %\begin{itemize}
@@ -97,7 +98,7 @@
     %\end{block}
     %\pause
     \begin{itemize}
-    \item Code reviewer recommendation models/tools help us to choose efficient reviewers.
+    \item Code reviewer recommendation models/tools help us to choose ideal reviewers.
     \item These tools help software teams:
         \begin{itemize}
             \item to find reviewers who can find more(critical) bugs in the source code.
@@ -135,7 +136,7 @@
 \frametitle{\large Comparison of Real Life and Algorithms}
 
   \begin{figure}
-    \includegraphics[scale=0.31]{img/final-.png}
+    \includegraphics[width=0.8\textwidth]{img/reallife_vs_algos.png}
     \end{figure}
     \begin{alertblock}{Notice:}
         \begin{itemize}
@@ -153,7 +154,7 @@
     \begin{block}{Ground Truth:}
     \begin{itemize}
         \item Factual data that has been observed or measured.
-        \item If data stands on some assumptions, is subject to opinion, then it cannot be \textbf{ground truth data}.
+        \item If data stands on some assumptions which is subject to opinion, then it cannot be \textbf{ground truth data}.
     \end{itemize}    
     \end{block}
     \pause
@@ -187,6 +188,23 @@
     \end{figure}
 
 \end{frame}
+\subsection{Ideal Reviewer}
+\begin{frame}
+\frametitle{\large Who is an ideal reviewer?}
+ \hspace{5cm}{
+ \begin{block}{Ideal Reviewer:}
+        The theoretical best possible reviewer in the team that would improve or preferably perfect (such as pointing out all the defects) the pull request under review.
+    \end{block}
+    }
+    \pause
+    \begin{alertblock}{Warning:}
+        \begin{itemize}
+        \item Ideal reviewer is selected by considering \textbf{only technical factors}.
+        \item i.e. If a developer is considered as the ideal reviewer for a pull request but is not available for a review at that moment, he/she is still the ideal reviewer.
+        \end{itemize}
+    \end{alertblock}
+\end{frame}
+
 \begin{frame}
 \frametitle{\large Problematical Reviewer Selection Scenario}
   \begin{figure}
@@ -205,7 +223,7 @@
 \end{frame}
 
 
-
+\iffalse
 \subsection{Ideal Reviewer}
 \begin{frame}
 \frametitle{\large Who is an ideal reviewer?}
@@ -217,12 +235,12 @@
     \pause
     \begin{alertblock}{Warning:}
         \begin{itemize}
-        \item In our case, the selection of ideal reviewer is assumed to be completed by only technical factors.
+        \item The selection of ideal reviewer is assumed to be completed by only technical factors.
         \item i.e. If a developer is considered as the ideal reviewer for a pull request but is not available for a review at that moment, he/she is still the ideal reviewer.
         \end{itemize}
     \end{alertblock}
 \end{frame}
-
+\fi
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Reasons of Non-Ideality}
@@ -246,7 +264,7 @@
 \subsection{Cognitive Bias}
 \begin{frame}
 \frametitle{\large What causes a non-ideal reviewer assignment?}
-    \textbf{Cognitive Bias:}
+    \textbf{Cognitive Bias:} A systematic pattern of deviation from norm or rationality in judgment.
      \begin{block}{Attribute Substitution:}
         It occurs when an individual has to make a judgment (of a target attribute) that is computationally complex, and instead substitutes a more easily calculated heuristic attribute.
     \end{block}
@@ -271,7 +289,7 @@
 
 \end{frame}
 
-
+\iffalse
 \section{Possible Reviewer Assignment Scenarios}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}
@@ -327,6 +345,8 @@
 \end{columns}
 \end{frame}
 
+\fi
+
 
 \begin{frame}
 \frametitle{\large Quantitative Evidence from Real Life }
@@ -360,60 +380,166 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Solution Alternatives}
     \begin{frame}{Solution Alternatives}
+    We provide two possible solutions to establish ground truth data: \newline
     \begin{itemize}
-        \item Expensive Setup in Real Life
-        \item Forward-Looking Mining
+        \item Setting up an Experiment in Real Life
+        \item Forward-Looking Mining the Issue Repository
     \end{itemize}
     \end{frame}
+    \iffalse
+    \subsection{Setting up an Experiment in Real Life}
+    \begin{frame}{Solution I- Setting up an Experiment in Real Life}
+        \centering\includegraphics[width=0.85\textwidth]{img/normal_review.png} \newline
+        \centering\color[rgb]{0,0.325,0.627}\textbf{A Typical Reviewer Assignment Scenario}
+    \end{frame}
 
-    \subsection{Expensive Setup in Real Life}
-    \begin{frame}{Expensive Setup in Real Life}
-        \includegraphics[height=4.2cm]{img/sol1.png}
+    \begin{frame}{What if...}
+        ... we assign the same review to multiple reviewers simultaneously?
+        \centering\includegraphics[width=0.9\textwidth]{img/multiple_review.png}
+    \end{frame}
+
+
+    \begin{frame}{Then, choose the best one}
+        \centering\includegraphics[width=0.9\textwidth]{img/multiple_review_2.png}
+    \end{frame}
+
+    \begin{frame}{Then, choose the best one}
+        \centering\includegraphics[width=0.9\textwidth]{img/multiple_review_3.png}
+    \end{frame}
+    
+    \begin{frame}{What is wrong with this method?}
+    \begin{alertblock}{Expensive!}
+        Making multiple developers spend time on a single review task is impractical and expensive.
+    \end{alertblock}
+    \pause
+    \begin{alertblock}{Hard to evaluate!}
+        It is not a straightforward task for the team leader to check all reviews and choose the best one.
+    \end{alertblock} 
     \end{frame}
     
   
     \subsection{Forward-Looking Mining}
-    \begin{frame}{Forward-Looking Mining}
-        \begin{columns}
-
-        \column{0.45\textwidth}
-        \justifying
-        \begin{itemize}
-            \item If a bug is reopened, it is a potential indicator that the assigned reviewer was not the ideal reviewer for that pull request.
-            \item Deleting these instances will increase the validity of the dataset. 
-        \end{itemize}
-        
-        \column{0.7\textwidth}
-        \includegraphics[height=5.1cm]{img/sol2.png}
-        \end{columns}
+    \begin{frame}{Solution II - Forward-Looking Mining}
+        \begin{block}{Idea:}
+        Reopened bugs might indicate a bad code review.
+        \end{block}
+        \pause
+        \begin{exampleblock}{How?}
+        Consider the following scenario.
+        \end{exampleblock}
+    
 
     \end{frame}
+    
+    \begin{frame}{Consider the following scenario:}
+    \centering\includegraphics[width=0.9\textwidth]{img/future_mining_1.png}\newline\newline
+    \caption{To fix a bug, a developer creates a pull request.}
+    \end{frame}
+    
+    \begin{frame}{Consider the following scenario:}
+    \centering\includegraphics[width=0.9\textwidth]{img/future_mining_2.png}\newline\newline
+    \caption{The assigned reviewer approves the pull request and the bug is closed.}
+    \end{frame}  
+    
+    \begin{frame}{Consider the following scenario:}
+    \centering\includegraphics[width=0.9\textwidth]{img/future_mining_3.png}\newline
+    \caption{If the same bug is reopened later, it is a potential indicator that the pull request is not conducted properly and the reviewer is not ideal.}
+    \end{frame}
+
+    \begin{frame}{Consider the following scenario:}
+    \centering\includegraphics[width=0.9\textwidth]{img/future_mining_4.png}\newline
+    \caption{Removing these instances from the dataset will increase the validity of ground truth.}
+    \end{frame}
+    \fi
 
 \section{Conclusion \& Future Work}
 \begin{frame}{Conclusion}
 
 \begin{itemize}
-    \item The validation of real-life collected datasets are problematic.
-    \item This problem is valid for other software engineering tasks. (i.e. bug localization, developer recommendation etc.)
-    \item As future work, we are planning to introduce quantitative evidence for cognitive bias and explore alternative solutions for this problem.
+    
+    \item\large The validation of real-life collected reviewer datasets are problematic.
+    \pause
+   \item\large The validation problem of these datasets affect the validity of recommendation models.    
+    \pause
+    \item\large This problem is valid for other software engineering tasks such as bug report assignee recommendation.
 \end{itemize}
 \end{frame}
 
+\begin{frame}{Implications of This Study}
+\begin{itemize}
+    \item\large Previous reviewer recommendation studies and datasets should be reviewed in terms of the validity of the ground truth.
+    \pause
+    \item\large New recommendation models and datasets should be created by considering this validity problem.
+    \pause
+    \item\large A validated benchmark dataset for reviewer recommendation task should be created.  
+\end{itemize}
+
+\end{frame}
+
+\iffalse
 \begin{frame}{Future Work}
 
 \begin{itemize}
-    \item Introducing quantitative evidence for attribute substitution bias.
-    \item Explore alternative solutions for this problem.
+    \item Introducing quantitative evidence for cognitive bias.
+    \pause
+    \item Exploring alternative solutions for this problem.
 \end{itemize}
 \end{frame}
+
+\begin{frame}{For the full-text PDF:}
+\centering \Large https://bit.ly/2koV4Jk
+
+\vskip 0.12in
+
+\centering \Large or
+
+\vskip 0.12in
+
+\includegraphics[width=0.4\textwidth]{img/qr_code_researchgate.png}
+\end{frame}
+\fi
+
+%%%%%
+\begin{frame}{Thank you}
+
+\begin{columns}
+\begin{column}{0.5\textwidth}
+\centering \normalsize Emre Doğan
+
+\centering \small \textit{MSc Student}
+
+\centering \small Computer Engineering Department
+
+\centering \small Bilkent University 
+
+\centering \small Ankara, Turkey
+
+emre.dogan@bilkent.edu.tr
+\end{column}
+\begin{column}{0.5\textwidth}  %%<--- here
+\centering \Large https://bit.ly/2koV4Jk
+
+\vskip 0.12in
+
+\centering \Large or
+
+\vskip 0.12in
+
+\includegraphics[width=0.4\textwidth]{img/qr_code_researchgate.png}
+\end{column}
+\end{columns}
+\end{frame}
+
+%%%%%
+
+\iffalse
 \begin{frame}{Any Questions}
-\centering \Large For any further, please contact me.
 
 \centering \normalsize Emre Doğan
 
 \centering \small \textit{MSc Student}
 
-\centering \small Department of Computer Engineering
+\centering \small Computer Engineering Department
 
 \centering \small Bilkent University 
 
@@ -421,18 +547,18 @@
 
 emre.dogan@bilkent.edu.tr
 \end{frame}
+\fi
 
 
-
-\section{References}
-\begingroup
-\Tiny
-\begin{frame}[allowframebreaks]
-    \frametitle{References}
-    \bibliographystyle{apalike}
-    \bibliography{bibliography} 
-\end{frame}
-\endgroup
+%\section{References}
+%\begingroup
+%\Tiny
+%\begin{frame}[allowframebreaks]
+%    \frametitle{References}
+%    \bibliographystyle{apalike}
+%    \bibliography{bibliography} 
+%\end{frame}
+%\endgroup
   %\cite{buyukccakir2018novel}
 
 \end{document}

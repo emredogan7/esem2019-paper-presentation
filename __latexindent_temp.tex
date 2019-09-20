@@ -2,7 +2,7 @@
 \usepackage[british]{babel}
 \usepackage[utf8]{inputenc} % This package will support Turkish chars
 
-% Some useful packages I use frequently
+% Packages
 \usepackage{hyperref}
 \usepackage{stmaryrd}
 \usepackage{color}
@@ -32,8 +32,8 @@
 % align spacing
 \setlength{\jot}{0pt}
 
-%\setbeamertemplate{navigation symbols}{}%remove navigation symbols
 
+% Intro info
 \title{Investigating the Validity of Ground Truth in Code Reviewer Recommendation Studies }
 \author[ESEM 2019]{
  \textbf{Emre Doğan}, Eray Tüzün, K. Ayberk Tecimer, H. Altay Güvenir}
@@ -65,9 +65,8 @@
 %\subsection{Code Review and Code Reviewer}
 
 \begin{frame}{\large What is Code Review, Who is a Code Reviewer?}
-
-  \textbf{Code Review:} A systematic examination of source code in order to highlight bugs and enhance the code quality.
-  \pause
+    \textbf{Code Review:} A systematic examination of source code in order to highlight bugs and enhance the code quality.
+    \pause
   \newline \newline
   \textbf{Code Reviewer:} The developer performing a code review who ensures the quality of the code.
   \pause
@@ -127,17 +126,14 @@
 
 \begin{frame}
 \frametitle{\large Reviewer Selection in Real Life }
-
   \begin{figure}
     \vspace{-0.3cm}
     \includegraphics[height=1\textheight]{img/real-life.png}
     \end{figure}
-
 \end{frame}
 
 \begin{frame}
 \frametitle{\large Comparison of Real Life and Algorithms}
-
   \begin{figure}
     \includegraphics[width=0.83\textwidth]{img/comparison.png}
     \end{figure}
@@ -151,7 +147,6 @@
 \end{frame}
 
 \section{Ground Truth}
-%\subsection{Definitions}
 \begin{frame}
 \frametitle{\large Ground Truth}
 
@@ -183,7 +178,7 @@
     \end{block}
 
 \end{frame}
-
+%\subsection{Ideal Reviewer}
 \begin{frame}
 \frametitle{\large Who is an ideal reviewer?}
  \hspace{5cm}{
@@ -227,6 +222,25 @@
 
 \end{frame}
 
+
+\iffalse
+\subsection{Ideal Reviewer}
+\begin{frame}
+\frametitle{\large Who is an ideal reviewer?}
+ \hspace{5cm}{
+     \begin{block}{Ideal Reviewer:}
+        The theoretical best possible reviewer in the team that would improve or preferably perfect (such as pointing out all the defects) the pull request under review.
+    \end{block}
+    }
+    \pause
+    \begin{alertblock}{Warning:}
+        \begin{itemize}
+        \item The selection of ideal reviewer is assumed to be completed by only technical factors.
+        \item i.e. If a developer is considered as the ideal reviewer for a pull request but is not available for a review at that moment, he/she is still the ideal reviewer.
+        \end{itemize}
+    \end{alertblock}
+\end{frame}
+\fi
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Reasons of Non-Ideality}
@@ -276,6 +290,7 @@
     \end{frame}
 
 %
+%\subsection{Cognitive Bias}
 \begin{frame}
 \frametitle{\large What causes a non-ideal reviewer assignment?}
      \begin{block}{Cognitive Bias:}
@@ -306,6 +321,26 @@
 
 \end{frame}
 
+
+
+    
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%    
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\iffalse
+\section{Solution Alternatives}
+    \begin{frame}{Solution Alternatives}
+    We provide two possible solutions to establish ground truth data: \newline
+    \begin{itemize}
+        \item Setting up an Experiment in Real Life
+        \item Forward-Looking Mining the Issue Repository
+    \end{itemize}
+    \end{frame}
+    \fi
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%% implications%%%%%%%%%
 \section{Conclusion}
 \begin{frame}{Implications of This Study}
 \begin{itemize}
@@ -318,6 +353,7 @@
 
 \end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\section{Conclusion \& Future Work}
 \begin{frame}{Conclusion}
 
 \begin{itemize}
@@ -349,6 +385,29 @@
 
 
 
+\iffalse
+\begin{frame}{Future Work}
+
+\begin{itemize}
+    \item Introducing quantitative evidence for cognitive bias.
+    \pause
+    \item Exploring alternative solutions for this problem.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{For the full-text PDF:}
+\centering \Large https://bit.ly/2koV4Jk
+
+\vskip 0.12in
+
+\centering \Large or
+
+\vskip 0.12in
+
+\includegraphics[width=0.4\textwidth]{img/qr_code_researchgate.png}
+\end{frame}
+\fi
+
 %%%%%
 \begin{frame}{Thank you}
 
@@ -371,6 +430,7 @@ emre.dogan@bilkent.edu.tr
 
 \vskip 0.12in
 
+\newline
 
 \vskip 0.12in
 
@@ -379,9 +439,24 @@ emre.dogan@bilkent.edu.tr
 \end{columns}
 \end{frame}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% AFTER THE RPESENTATION %%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%
+
+\iffalse
+\begin{frame}{Any Questions}
+
+\centering \normalsize Emre Doğan
+
+\centering \small \textit{MSc Student}
+
+\centering \small Computer Engineering Department
+
+\centering \small Bilkent University 
+
+\centering \small Ankara, Turkey
+
+emre.dogan@bilkent.edu.tr
+\end{frame}
+\fi
 
 
 \section{After the Presentation}
@@ -419,7 +494,30 @@ emre.dogan@bilkent.edu.tr
       \end{figure}
 \end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\iffalse
+\section{Quantitative Evidence}
+\begin{frame}
+\frametitle{\large Data, data, data...}
+ \begin{columns}
+    \begin{column}{0.37\textwidth}
+    \begin{figure}
+      \includegraphics[width=\textwidth]{img/edward_deming.png}
+     \end{figure}
+     
+    \end{column}
+    \begin{column}{0.55\textwidth}  %%<--- here
+    \hspace{-0.1cm}
+    \centering\Large Without data, you're just another person with an opinion.\newline\newline
+     \centering\small\textit{Dr. W. Edwards Deming}
+\end{column}
+\end{columns}
+\end{frame}
+\fi
 
+
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    %%%%SOLUTION ALTERNATIVES%%%
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
     \begin{frame}[noframenumbering]{Solution Alternatives}
     I - Setting up an Experiment in Real Life\newline
@@ -454,6 +552,7 @@ emre.dogan@bilkent.edu.tr
     \end{alertblock} 
     \end{frame}
     
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     \begin{frame}[noframenumbering]{Solution II - Forward-Looking Mining}
         \begin{block}{Idea:}
         Reopened bugs might indicate a bad code review.
@@ -462,8 +561,6 @@ emre.dogan@bilkent.edu.tr
         \begin{exampleblock}{How?}
         Consider the following scenario.
         \end{exampleblock}
-    
-
     \end{frame}
     
     \begin{frame}[noframenumbering]{Consider the following scenario:}
@@ -485,7 +582,6 @@ emre.dogan@bilkent.edu.tr
     \centering\includegraphics[width=0.9\textwidth]{img/future_mining_4.png}\newline
     \caption{Removing these instances from the dataset will increase the validity of ground truth.}
     \end{frame}
-
 
 %\section{References}
 %\begingroup

@@ -1,26 +1,8 @@
-# bilkent-beamer-template
 
-LaTeX Beamer Template for Bilkent University students. This theme uses exact color scheme of Bilkent University's officially announced colors.
+# ESEM'19 Presentation Source Files
+  
+This repository includes the source files of the paper presentation 'Investigating the Validity of Ground Truth in Code Reviewer Recommendation Studies' which has been awarded as the best paper in Emerging Results and Vision Track of ESEM 2019 (The ACM/IEEE International Symposium on Empirical Software Engineering and Measurement).  
 
-### Info about color pallette:
+For this presentation, I used the beamer template for Bilkent University designed by _Alican Buyukcakir_. Find his template repository [here](https://github.com/abuyukcakir/bilkent-beamer-template).  
 
-Bilkent University's logo have two distinct colors <sup>1</sup>.
-
-1. Pantone Reflex Blue: **RGB(0,83,160)**
-2. Flag Red (Alizarin): **RGB(237,29,36)**
-
-### Backbone Template
-
-University of Vienna's template <sup>2</sup>. is the starting point.
-
-### Example Slides
-
-![Title Page](/bilkent-beamer-pics/titlepage.PNG)
-![Outline](/bilkent-beamer-pics/outline.PNG)
-![Boxes, Alert Boxes, Examples](/bilkent-beamer-pics/boxes.PNG)
-![List, Verbatim](/bilkent-beamer-pics/list.PNG)
-
-
-<sup>1</sup>. For more information, see: https://w3.bilkent.edu.tr/www/bilkent-logo/
-
-<sup>2</sup>. Univ. of Vienna template available at: https://www.overleaf.com/latex/templates/beamer-university-of-vienna/mdpvdgyywjcw. (Licensed under CC BY 4.0)
+Find the PDF version of my final presentation [here](./main.pdf). 
